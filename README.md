@@ -58,3 +58,18 @@ The following conclusions were drawn from Modelling:
 <li>Among the remaining, the model built using random forest algorithm is the most accurate one. This can be attributed to higher number of categorical features in the data.</li>
 <li>If model interpretability is more important than accuracy, model built using decision tree algorithm should be chosen over the one using random forest algorithm. Since the difference between accuracy of these two models is less than 1%, there won't be a large difference in the result.</li>
 <li>Decision tree based algorithms are slightly more accurate than linear regression based algorithms. Decision tree based algorithm gives an accuracy of ~93% while linear regression based algorithms given ~50%.</li>
+
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+Midhun R | Avid Learner | Data Analyst | Data Scientist | Machine Learning Enthusiast
+
+<p> <i> Contact me for Data Science Project Collaborations</i></p>
+
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/connectmidhunr/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/connect-midhunr/)
+[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@connect.midhunr/)
+[![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)](https://drive.google.com/file/d/1Bho0SK8U3PMCK5UEyVEYnrNM9IYUUzcV/view?usp=sharing)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
