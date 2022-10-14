@@ -2,4 +2,4 @@
   <img src="images/banner.png" alt="Android Logo">
 </p>
 
-Build a machine learning model to forecast the sales of each Rossmann store upto 6 weeks.
+In this project, I have attempted to analyze the retail sales dataset of Rossmann stores and build a predictive model to forecast the sales over the next 6 weeks. No personal information of customer is provided in this dataset.
