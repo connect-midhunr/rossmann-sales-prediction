@@ -1,4 +1,5 @@
-# Rossmann Sales Prediction
-<src=”https://userimages.githubusercontent.com/96726979/195892700-a48e7ebf-db34-4197-b1f3-17ed7f971051.png" alt=”my banner”>
+<p align="center"> 
+  <img src="images/banner.png" alt="Android Logo">
+</p>
 
 Build a machine learning model to forecast the sales of each Rossmann store upto 6 weeks.
