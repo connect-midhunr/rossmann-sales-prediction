@@ -59,11 +59,9 @@ The following conclusions were drawn from Modelling:
 <li>If model interpretability is more important than accuracy, model built using decision tree algorithm should be chosen over the one using random forest algorithm. Since the difference between accuracy of these two models is less than 1%, there won't be a large difference in the result.</li>
 <li>Decision tree based algorithms are slightly more accurate than linear regression based algorithms. Decision tree based algorithm gives an accuracy of ~93% while linear regression based algorithms given ~50%.</li>
 
-<!-- CREDITS -->
-<h2 id="credits"> :scroll: Credits</h2>
+## :scroll: Credits
 
 Midhun R | Avid Learner | Data Analyst | Data Scientist | Machine Learning Enthusiast
-
 <p> <i> Contact me for Data Science Project Collaborations</i></p>
 
 
@@ -72,4 +70,15 @@ Midhun R | Avid Learner | Data Analyst | Data Scientist | Machine Learning Enthu
 [![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@connect.midhunr/)
 [![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)](https://drive.google.com/file/d/1Bho0SK8U3PMCK5UEyVEYnrNM9IYUUzcV/view?usp=sharing)
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## :books: References
+<ul>
+  <li><p>GeeksforGeeks, 'Feature Encoding Techniques – Machine Learning'. [Online].</p>
+      <p>Available: https://www.geeksforgeeks.org/feature-encoding-techniques-machine-learning/</p>
+  </li>
+  <li><p>Medium, 'Which evaluation metric should you choose for evaluating your Classification and Regression models?'. [Online].</p>
+      <p>Available: https://medium.com/almabetter/which-evaluation-metric-should-you-choose-for-evaluating-your-classification-and-regression-models-1df8237f9a24</p>
+  </li>
+  <li><p>Analytics Vidhya, 'Complete Guide to Parameter Tuning in XGBoost with codes in Python'. [Online].</p>
+      <p>Available: https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/</p>
+  </li>
+</ul>
