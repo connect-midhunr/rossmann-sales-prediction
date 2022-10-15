@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="images/banner.png" alt="Banner">
+  <img src="Images/banner.png" alt="Banner">
 </p>
 
 In this project, I have attempted to analyze the retail sales dataset of Rossmann stores and build a predictive model to forecast the sales over the next 6 weeks. No personal information of customer is provided in this dataset.
@@ -49,7 +49,7 @@ The following insights were gained from EDA:
 
 ## :book: Modelling
 
-<img src="images/Result_light.png" alt="Result">
+<img src="Images/Result_light.png" alt="Result">
 
 ## 📘: Conclusion
 
