@@ -78,7 +78,7 @@ Midhun R | Avid Learner | Data Analyst | Data Scientist | Machine Learning Enthu
   <li><p>Medium, 'Which evaluation metric should you choose for evaluating your Classification and Regression models?'. [Online].</p>
       <p>Available: https://medium.com/almabetter/which-evaluation-metric-should-you-choose-for-evaluating-your-classification-and-regression-models-1df8237f9a24</p>
   </li>
-  <li><p>Analytics Vidhya, 'Complete Guide to Parameter Tuning in XGBoost with codes in Python'. [Online].</p>
-      <p>Available: https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/</p>
+  <li><p>Analytics Vidhya, 'Decision Tree Algorithm – A Complete Guide'. [Online].</p>
+      <p>Available: https://www.analyticsvidhya.com/blog/2021/08/decision-tree-algorithm/</p>
   </li>
 </ul>
