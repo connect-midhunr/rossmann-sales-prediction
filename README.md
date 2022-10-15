@@ -51,7 +51,7 @@ The following insights were gained from EDA:
 
 <img src="images/Result_light.png" alt="Result">
 
-## :book: Conclusion
+## 📘: Conclusion
 
 The following conclusions were drawn from Modelling:
 <li>The model built using XGBoost algorithm gives unusually high accuracy. This may lead to overfitting. Therefore, it is advisable to not use this model.</li>
