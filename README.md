@@ -49,7 +49,7 @@ The following insights were gained from EDA:
 
 ## :book: Modelling
 
-<img src="Images/Result_light.png" alt="Result">
+<img src="Images/Result_models.png" alt="Result">
 
 ## 📘: Conclusion
 
