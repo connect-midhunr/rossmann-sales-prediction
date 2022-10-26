@@ -56,8 +56,8 @@ The following insights were gained from EDA:
 The following conclusions were drawn from Modelling:
 <li>The model built using XGBoost algorithm gives unusually high accuracy. This may lead to overfitting. Therefore, it is advisable to not use this model.</li>
 <li>Among the remaining, the model built using random forest algorithm is the most accurate one. This can be attributed to higher number of categorical features in the data.</li>
-<li>If model interpretability is more important than accuracy, model built using decision tree algorithm should be chosen over the one using random forest algorithm. Since the difference between accuracy of these two models is less than 1%, there won't be a large difference in the result.</li>
-<li>Decision tree based algorithms are slightly more accurate than linear regression based algorithms. Decision tree based algorithm gives an accuracy of ~93% while linear regression based algorithms given ~50%.</li>
+<li>If model interpretability is more important than accuracy, model built using decision tree algorithm should be chosen over the one using random forest algorithm. Since the difference between accuracy of these two models is less than 3%, there won't be a large difference in the result.</li>
+<li>Decision tree based algorithms are slightly more accurate than linear regression based algorithms.</li>
 
 ## :scroll: Credits
 
