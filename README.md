@@ -6,7 +6,7 @@ In this project, I have attempted to analyze the retail sales dataset of Rossman
 
 ## :floppy_disk: Project Files Description</h2>
 
-<p>This project contains an executable iPython Notebook and a presentation as follows:</p>
+<p>This project contains an executable iPython Notebook, presentation and source files as follows:</p>
 <h4>Executable Files:</h4>
 <ul>
   <li><b>Rossmann_Sales_Prediction_Capstone_Project.ipynb</b> - Google Colab notebook containing data summary, exploration, visualisations, feature engineering, modelling, performance evaluation and conclusion.</li>
