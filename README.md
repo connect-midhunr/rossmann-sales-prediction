@@ -19,7 +19,7 @@ In this project, I have attempted to analyze the retail sales dataset of Rossman
 
 <h4>Source Directory:</h4>
 <ul>
-  <li><b>Data & Resources.zip</b> - Includes sales data and store data for various Rossmann stores.</li>
+  <li><b>Data & Resources</b> - Includes sales data and store data for various Rossmann stores.</li>
 </ul>
 
 ## :book: Problem Statement
