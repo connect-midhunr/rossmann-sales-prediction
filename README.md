@@ -4,24 +4,6 @@
 
 In this project, I have attempted to analyze the retail sales dataset of Rossmann stores and build a predictive model to forecast the sales over the next 6 weeks. No personal information of customer is provided in this dataset.
 
-## :floppy_disk: Project Files Description</h2>
-
-<p>This project contains an executable iPython Notebook, presentation and source files as follows:</p>
-<h4>Executable Files:</h4>
-<ul>
-  <li><b>Rossmann_Sales_Prediction_Capstone_Project.ipynb</b> - Google Colab notebook containing data summary, exploration, visualisations, feature engineering, modelling, performance evaluation and conclusion.</li>
-</ul>
-
-<h4>Documentation:</h4>
-<ul>
-  <li><b>Presentation PDF - Supervised Machine Learning - Regression - Rossmann Retail Sales - Capstone Project.pdf</b> - Presentation slideshow of the project.</li>
-</ul>
-
-<h4>Source Directory:</h4>
-<ul>
-  <li><b>Data & Resources</b> - Includes sales data and store data for various Rossmann stores.</li>
-</ul>
-
 ## :book: Problem Statement
 
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
