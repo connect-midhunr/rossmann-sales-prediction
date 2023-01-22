@@ -33,6 +33,12 @@ The following insights were gained from EDA:
 
 <img src="Images/rossmann_sales_scores.jpg" alt="Result">
 
+## :book: Deployment
+
+<li>A web application is built to demonstrate the working of the trained machine learning model using a combination of HTML, CSS, and JavaScript.</li>
+<li>The prediction of sales using the trained ML model is carried out via a Flask API.</li>
+<li>This web application is dockerized and deployed with AWS EC2 along with GitHub Actions for CI/CD pipeline.</li>
+
 ## 📘: Conclusion
 
 The following conclusions were drawn from Modelling:
