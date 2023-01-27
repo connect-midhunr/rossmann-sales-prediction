@@ -4,11 +4,12 @@ from datetime import datetime, timedelta
 from sklearn.preprocessing import OneHotEncoder
 import pickle
 import math
+from sklearn.model_selection import RandomizedSearchCV
 
 # defining a function to load and clean store dataset
 def store_data():
   # creating dataframes and store csv data
-  path = 'data/store.csv'
+  path = './data/store.csv'
   df = pd.read_csv(path, index_col=0)
 
   # filling the missing values with median
@@ -32,7 +33,7 @@ def store_data():
 # defining a function to load and clean sales dataset
 def sales_data():
   # creating dataframes and store csv data
-  path = 'data/Rossmann Stores Data.csv'
+  path = './data/Rossmann Stores Data.csv'
   df = pd.read_csv(path, index_col=0, low_memory=False)
 
   # date should be converted from object to datetime
@@ -50,7 +51,7 @@ def sales_data():
 # defining a function to load dates of Easter
 def easter_data():
   # creating dataframes and easter dates csv data
-  path = 'data/Easter_dates_data.csv'
+  path = './data/Easter_dates_data.csv'
   df = pd.read_csv(path, index_col=0)
   return df
 
@@ -189,7 +190,7 @@ def feature_engineering(parameter_df: pd.DataFrame):
   return parameter_df
 
 # defining a function to get the sales of the mentioned store for the given date
-def get_sales(store: int, sales_date: pd.Timestamp, store_df: pd.DataFrame, sales_df: pd.DataFrame, easter_df: pd.DataFrame, model):
+def get_sales(store: int, sales_date: pd.Timestamp, store_df: pd.DataFrame, sales_df: pd.DataFrame, easter_df: pd.DataFrame, model: RandomizedSearchCV):
   # extacting day of week, year, month and week of year from the given date
   dayOfWeek = sales_date.weekday() + 1
   year = sales_date.year
@@ -232,25 +233,22 @@ def get_sales(store: int, sales_date: pd.Timestamp, store_df: pd.DataFrame, sale
   return sales[store - 1]
 
 # defining a function to get the total sales of the mentioned store for the given range of dates
-def get_total_sales(store: int, sales_date_string_from: str, sales_date_string_to: str):
+def get_total_sales(store: int, sales_date_string_from: str, sales_date_string_to: str, store_df: pd.DataFrame, sales_df: pd.DataFrame, easter_df: pd.DataFrame, ml_model: RandomizedSearchCV):
   sales_dates = pd.date_range(sales_date_string_from, sales_date_string_to).tolist()
 
-  # loading and cleaning store, sales and easter dates datasets
-  store_df = store_data()
-  sales_df = sales_data()
-  easter_df = easter_data()
-  
-  # loading the trained machine learning model
-  ml_model = pickle.load(open('/models/ml_model.pkl', 'rb'))
-
-  predicted_sales = []
+  predicted_sales = {}
   for dt in sales_dates:
-    predicted_sales.append([dt.strftime('%Y-%m-%d'), get_sales(store, dt, store_df, sales_df, easter_df, ml_model)])
+    predicted_sales[dt] = get_sales(store, dt, store_df, sales_df, easter_df, ml_model)
 
   return predicted_sales
 
 # def main():
-#   print(get_total_sales(1, '2015-07-21', '2015-07-31'))
+#   store = store_data()
+#   sales = sales_data()
+#   easter = easter_data()
+#   ml_model = pickle.load(open('./models/ml_model.pkl', 'rb'))
+
+#   print(get_total_sales(1, '2023-01-26', '2023-01-28', store, sales, easter, ml_model))
 
 # if __name__ == "__main__":
 #   main()
