@@ -237,11 +237,12 @@ p {
 
     #banner {
         height: auto;
+        margin: 0 0 5% 0
     }
 
     #banner-img {
-        max-width: 100%;
-        min-width: 50%;
+        /* max-width: 100%;
+        min-width: 50%; */
         height: auto;
     }
 
@@ -252,6 +253,8 @@ p {
     
     .banner-blob {
         visibility: collapse;
+        height: 0px;
+        width: 0px;
     }
 
     #content {
@@ -300,8 +303,16 @@ p {
         margin: 2% 0;
     }
 
+    #total-sales-indicator {
+        width: 240px;
+    }
+    
+    #avg-sales-indicator {
+        width: 240px;
+    }
+
     .inp {
-        width: 240px;;
+        width: 100px;
     }
 
     #footer {
