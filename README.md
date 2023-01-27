@@ -1,5 +1,6 @@
 <p align="center"> 
   <img src="Images/banner_ross_transparent.png" alt="Banner">
+  Link to deployed model: http://rossmannsalesprediction-env-1.eba-3wi97vqp.ap-south-1.elasticbeanstalk.com/
 </p>
 
 In this project, I have attempted to analyze the retail sales dataset of Rossmann stores and build a predictive model to forecast the sales over the next 6 weeks. No personal information of customer is provided in this dataset.
@@ -38,6 +39,11 @@ The following insights were gained from EDA:
 <li>A web application is built to demonstrate the working of the trained machine learning model using a combination of HTML, CSS, and JavaScript.</li>
 <li>The prediction of sales using the trained ML model is carried out via a Flask API.</li>
 <li>This web application is dockerized and deployed with AWS EC2 along with GitHub Actions for CI/CD pipeline.</li>
+
+Link to deployed model: http://rossmannsalesprediction-env-1.eba-3wi97vqp.ap-south-1.elasticbeanstalk.com/
+
+<img src="Images/WebAppDesktop.jpg" alt="WebAppDesktop">
+<img src="Images/WebAppMobile.png" alt="WebAppMobile">
 
 ## 📘: Conclusion
 
