@@ -224,17 +224,34 @@ p {
 @media (max-width: 872px) {
 
     .container {
+        display: flex;
+        justify-content:center;
+        position: relative;
         width: auto;
         height: auto;
-        margin: 2%;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin: 5%;
     }
 
     #banner {
         height: auto;
     }
+
+    #banner-img {
+        max-width: 100%;
+        min-width: 50%;
+        height: auto;
+    }
+
+    #banner-name {
+        height: auto;
+        width: auto;
+    }
     
     .banner-blob {
-        visibility: hidden;
+        visibility: collapse;
     }
 
     #content {
@@ -247,7 +264,47 @@ p {
         height: auto;
     }
 
+    #description-application {
+        margin: 0 0 3% 0;
+    }
+
     #predictor {
         width: auto;
+        justify-content: center;
+    }
+
+    .predictor-flex {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .top-row {
+        width: auto;
+        flex-basis: 100%;
+        margin: 1% 0;
+    }
+
+    .middle-row {
+        width: auto;
+        flex-basis: 100%;
+        margin: 1% 0;
+    }
+
+    .rounded-border {
+        width: auto;
+    }
+
+    #predict-button {
+        height: 54px;
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .inp {
+        width: 240px;;
+    }
+
+    #footer {
+        margin: 3% 0;
     }
 }
