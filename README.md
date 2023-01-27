@@ -42,8 +42,18 @@ The following insights were gained from EDA:
 
 Link to deployed model: http://rossmannsalesprediction-env-1.eba-3wi97vqp.ap-south-1.elasticbeanstalk.com/
 
-<img src="Images/WebAppDesktop.jpg" alt="WebAppDesktop">
-<img src="Images/WebAppMobile.png" alt="WebAppMobile">
+<img class="image-ss" src="Images/WebAppDesktop.jpg" alt="WebAppDesktop">
+<img class="image-ss" src="Images/WebAppMobile.png" alt="WebAppMobile">
+
+<style>
+  .img {
+    display: inline-block;
+  }
+  img.image-ss {
+    width: 49%;
+    display: inline-block;
+  }
+</style>
 
 ## 📘: Conclusion
 
