@@ -31,7 +31,7 @@ def predict_api():
 
             total_sales = list(get_total_sales(store_id, from_date, to_date, store_df, sales_df, easter_df, ml_model).values())
             print("Output:", total_sales)
-            return render_template('index.html', total = str(round(sum(total_sales))), average = str(round(sum(total_sales)/len(total_sales))))
+            return render_template('index.html', total = '$ ' + str(round(sum(total_sales))), average = '$ ' + str(round(sum(total_sales)/len(total_sales))))
         else:
             return render_template('index.html')
     except Exception as e:
