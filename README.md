@@ -50,7 +50,7 @@ An interactive dashboard was also created with Power BI to display charts associ
 
 <img src="Images/DataViz.png" alt="Banner">
 
-Click [here](https://public.tableau.com/views/HotelBookingAnalysis_16716416454840/HotelBookingAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link) to download the data visualization.
+Click [here](https://github.com/connect-midhunr/rossmann-sales-prediction/raw/main/dashboard/Dashboard_Rossmann.pbix) to download the data visualization.
 
 ## 📘: Conclusion
 
