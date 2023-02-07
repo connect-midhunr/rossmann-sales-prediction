@@ -44,6 +44,14 @@ The following insights were gained from EDA:
 
 Link to deployed model: http://rossmannsalesprediction-env-1.eba-3wi97vqp.ap-south-1.elasticbeanstalk.com/
 
+## :book: Data Visualization
+
+An interactive dashboard was also created with Power BI to display charts associated with the analysis. It included features like drill-through and customized tooltip.
+
+<img src="Images/DataViz.png" alt="Banner">
+
+Click [here](https://public.tableau.com/views/HotelBookingAnalysis_16716416454840/HotelBookingAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link) to download the data visualization.
+
 ## 📘: Conclusion
 
 The following conclusions were drawn from Modelling:
