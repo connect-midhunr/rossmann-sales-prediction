@@ -46,11 +46,11 @@ Link to deployed model: http://rossmannsalesprediction-env-1.eba-3wi97vqp.ap-sou
 
 ## :book: Data Visualization
 
-An interactive dashboard was also created with Power BI to display charts associated with the analysis. It included features like drill-through and customized tooltip.
+An interactive dashboard was also created with Power BI to display charts associated with the analysis. It includes features like drill-through and customized tooltip.
 
 <img src="Images/DataViz.png" alt="Banner">
 
-Click [here](https://public.tableau.com/views/HotelBookingAnalysis_16716416454840/HotelBookingAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link) to download the data visualization.
+Click [here](https://github.com/connect-midhunr/rossmann-sales-prediction/raw/main/dashboard/Dashboard_Rossmann.pbix) to download the data visualization.
 
 ## 📘: Conclusion
 
