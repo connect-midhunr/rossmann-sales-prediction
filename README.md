@@ -55,8 +55,7 @@ Click [here](https://github.com/connect-midhunr/rossmann-sales-prediction/raw/ma
 ## 📘: Conclusion
 
 The following conclusions were drawn from Modelling:
-<li>The model built using XGBoost algorithm gives unusually high accuracy. This may lead to overfitting. Therefore, it is advisable to not use this model.</li>
-<li>Among the remaining, the model built using decision tree algorithm is the most accurate one. This can be attributed to higher number of categorical features in the data.</li>
+<li>The model built using decision tree algorithm is the most accurate one. This can be attributed to higher number of categorical features in the data.</li>
 <li>Decision tree based algorithms are slightly more accurate than linear regression based algorithms.</li>
 
 ## :scroll: Credits
