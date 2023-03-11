@@ -38,7 +38,7 @@ The following insights were gained from EDA:
 
 <li>A web application is built to demonstrate the working of the trained machine learning model using a combination of HTML, CSS, and JavaScript.</li>
 <li>The prediction of sales using the trained ML model is carried out via a Flask API.</li>
-<li>This web application is dockerized and deployed with AWS Elastic Beanstalk, employing CI/CD pipeline.</li>
+<li>This web application is deployed with AWS Elastic Beanstalk, employing CI/CD pipeline.</li>
 
 <img class="image-ss" src="Images/WebAppDesktop.jpg" height="300px" alt="WebAppDesktop"> <img class="image-ss" src="Images/WebAppMobile.png" height="300px" alt="WebAppMobile">
 
